@@ -4,6 +4,10 @@ version = "0.1.0"
 authors = ["choby <choby@outlook.com>"]
 edition = "2018"
 
+[lib]
+crate-type = ["cdylib", "rlib"]
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+yew = "0.17"
